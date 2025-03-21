@@ -1,0 +1,23 @@
+name: 'demo_session'
+version: '1.0.0'
+config-version: 2
+
+profile: 'demo_session'
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+
+target-path: "target"  # directory which will store compiled SQL files
+clean-targets:         # directories to be removed by `dbt clean`
+  - "target"
+  - "dbt_packages"
+
+seeds:
+  demo_session:
+    schema: seeds
+
+vars:
+  start_date: "2025-01-01"
+  user_activity_delay: 300
+  user_event_filter: "'a','b','c'"
+  raw_data_delay: "interval '5 days'"

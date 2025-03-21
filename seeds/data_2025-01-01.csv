@@ -1,0 +1,13 @@
+user_id,event_id,timestamp,product_code
+user_1,a,2025-01-01 12:00:00,product_1
+user_1,x,2025-01-01 12:01:00,product_1
+user_1,b,2025-01-01 12:02:00,product_1
+user_1,y,2025-01-01 12:03:00,product_1
+user_1,z,2025-01-01 12:07:30,product_1
+user_2,a,2025-01-01 13:00:00,product_2
+user_2,a,2025-01-01 13:10:00,product_2
+user_2,a,2025-01-01 13:11:00,product_2
+user_3,x,2025-01-01 14:00:00,product_3
+user_3,y,2025-01-01 14:01:00,product_3
+user_3,a,2025-01-01 14:02:00,product_3
+user_3,z,2025-01-01 14:03:00,product_3

@@ -1,0 +1,6 @@
+demo_session:
+  outputs:
+    dev:
+      type: duckdb
+      path: demo_session.duckdb
+  target: dev

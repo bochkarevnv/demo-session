@@ -1,0 +1,7 @@
+version: 2
+
+models:
+  - name: session
+    tests:
+      - dbt_utils.equality:
+          compare_model: ref('output_'+var('start_date') | string)
